@@ -71,7 +71,7 @@ fun DisplayText(TitleText: String, FirstParagraph: String, SecondParagraph: Stri
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun GreetingPreview() {
+fun AppPreview() {
     ComposeArticleTheme {
         DisplayText(TitleText, FirstParagraph, SecondParagraph)
     }
